@@ -33,6 +33,10 @@ In this repository - I will use Tabler template and do the implementation on `la
 1. Get the main layouts
 2. Apply the CSS use based on `resources/assets/templates/tabler/dist` or sample [here](https://github.com/tabler/tabler/tree/dev/dist).
 
+The result:
+
+![login](login.png)
+
 
 
 
