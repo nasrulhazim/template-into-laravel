@@ -20,13 +20,18 @@ Basically the steps is:
 
 	```javascript
 	mix.js('resources/assets/js/app.js', 'public/js')
-	   .sass('resources/assets/sass/app.scss', 'public/css')
-	   .copy('resources/assets/templates/tabler/dist/assets', 'public/tabler/');
+   .sass('resources/assets/sass/app.scss', 'public/css')
+   .copy('resources/assets/templates/tabler/dist/assets', 'public/tabler/assets');
 	```
 
 Once you are done 3 steps above, run `npm run prod`. This will simply compile your resource assets, and copy it to public directory. That's it!
 
-Now you are ready to use all the template's assets. In this repository - I will use Tabler - just rewrite back all views to table format.
+Now you are ready to use all the template's assets. 
+
+In this repository - I will use Tabler template and do the implementation on `layouts/app.blade.php` and `auth/login.blade.php`.
+
+1. Get the main layouts
+2. Apply the CSS use based on `resources/assets/templates/tabler/dist` or sample [here](https://github.com/tabler/tabler/tree/dev/dist).
 
 
 
